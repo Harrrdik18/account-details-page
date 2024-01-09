@@ -57,18 +57,18 @@ const ProfileDashboard = () => {
           </div>
 
           {/* Recent Activity and Buttons Section */}
-          <div className="col-span-2 sm:col-span-2">
+          <div className="col-span-5 sm:col-span-4 ">
             {/* Recent Activity Section */}
             <div className="mt-6">
-              <h2 className="text-lg font-semibold mb-2">Recent Activity Feed</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-slate-500">
+              <h2 className="text-lg font-semibold mb-2 ">Recent Activity Feed</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-white-500">
                 {/* Display recent activity items */}
                 {/* Use a similar card-like structure for each activity */}
-                <div className="bg-[rgba(255,255,255,0.23)] rounded shadow">
+                <div className="bg-[rgba(255,255,255,0.23)] rounded shadow p-4">
                   <p className="text-white-700">Graph Title 1</p>
                   <p className="text-white-500 text-sm mt-1">Date Created: 2022-01-08</p>
                 </div>
-                <div className="bg-[rgba(255,255,255,0.23)] rounded shadow">
+                <div className="bg-[rgba(255,255,255,0.23)] rounded shadow p-4">
                   <p className="text-white-700">Graph Title 2</p>
                   <p className="text-white-500 text-sm mt-1">Date Created: 2022-01-09</p>
                 </div>
