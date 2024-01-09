@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const ProfileDashboard = () => {
   return (
@@ -78,7 +79,7 @@ const ProfileDashboard = () => {
             {/* Buttons Section */}
             <div className="mt-6">
             
-              <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Create New Graph</button>
+            <Link to ="create-new-graph"> <button className="bg-blue-500 text-white px-4 py-2 rounded mr-2">Create New Graph</button></Link> 
               
               <button className="bg-green-500 text-white px-4 py-2 rounded mr-2">Share Graphs</button>
               <button className="bg-yellow-500 text-white px-4 py-2 rounded">Upload Papers</button>
