@@ -96,7 +96,7 @@ const ProfileDashboard = () => {
             <p className="text-white-500 text-sm mt-1">Date Created: 2022-01-08</p>
             {/* Add an image or thumbnail for the graph */}
           </div>
-          <div className="bg-[rgba(255,255,255,0.23)] rounded shadow col-span-2 sm:col-span-1 lg:col-span-1">
+          <div className="bg-[rgba(255,255,255,0.23)] p-4 rounded shadow col-span-2 sm:col-span-1 lg:col-span-1">
             <p className="text-white-700">Saved Graph 2</p>
             <p className="text-white-500 text-sm mt-1">Date Created: 2022-01-09</p>
             {/* Add an image or thumbnail for the graph */}
