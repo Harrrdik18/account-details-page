@@ -118,17 +118,17 @@ const ProfileDashboard = () => {
 
          <div className="mt-6 container mx-auto">
 
-          <h3 class ="text-white-900 dark:text-white">Navigation</h3>
-          <a href="/graph-details" className="text-fuchsia-300 text-xs hover:underline mr-4">
+          <h3 class ="text-zinc-400 dark:text-white">Navigation</h3>
+          <a href="/graph-details" className="text-slate-500 text-xs hover:underline mr-4">
           Graph details page
           </a>
-          <a href="/account-settings" className="text-fuchsia-300 text-xs hover:underline mr-4">
+          <a href="/account-settings" className="text-slate-500 text-xs hover:underline mr-4">
             Account Setting
           </a>
-          <a href="/graph-details" className="text-fuchsia-300 text-xs hover:underline mr-4">
+          <a href="/graph-details" className="text-slate-500 text-xs hover:underline mr-4">
           Graph Details
           </a>
-          <a href="/pricing" className="text-fuchsia-300 text-xs hover:underlinemr-4">
+          <a href="/pricing" className="text-slate-500 text-xs hover:underlinemr-4">
           Pricing
           </a>
          
