@@ -61,7 +61,7 @@ const ProfileDashboard = () => {
             {/* Recent Activity Section */}
             <div className="mt-6">
               <h2 className="text-lg font-semibold mb-2">Recent Activity Feed</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-slate-500">
                 {/* Display recent activity items */}
                 {/* Use a similar card-like structure for each activity */}
                 <div className="bg-[rgba(255,255,255,0.23)] rounded shadow">
