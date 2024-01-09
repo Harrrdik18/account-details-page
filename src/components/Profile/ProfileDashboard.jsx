@@ -28,8 +28,8 @@ const ProfileDashboard = () => {
           </div>
 
           {/* Account Details Section */}
-          <div className="col-span-3 sm:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Account Details</h2>
+          <div className="col-span-2 sm:col-span-1">
+            <h2 className="text-lg font-semibold mb-2 mt-3">Account Details</h2>
             <div className="bg-[rgba(255,255,255,0.23)] p-6 rounded shadow">
               <p className="text-white-700">
                 <span className="font-semibold">Current Plan:</span> Pro
@@ -41,7 +41,7 @@ const ProfileDashboard = () => {
           </div>
 
           {/* Usage Metrics Section */}
-          <div className="col-span-3 sm:col-span-1">
+          <div className="col-span-3 sm:col-span-1 mt-3">
             <h2 className="text-lg font-semibold mb-2">Usage Metrics</h2>
             <div className="bg-[rgba(255,255,255,0.23)] p-6 rounded shadow">
               <p className="text-white-700">
